@@ -1,0 +1,42 @@
+.benefits{
+    padding: 70px 0;
+    background-color: #f6f6f6;
+
+    &__title{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__content{
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__item{
+        width: 240px;
+    }
+
+    &__heading{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__text{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 500";
+        font-size: 14px;
+        font-weight: 500;
+
+        margin-top: 29px;
+
+        span{
+            font-family: "Museo Sans Cyrl 500";
+            color: #ff0000;
+        }
+    }
+}
