@@ -20,7 +20,7 @@
 
         color: #6b6b6b;
         
-text-transform: uppercase;
+        text-transform: uppercase;
         text-align: center;
         line-height: 48px;
 
@@ -44,10 +44,13 @@ text-transform: uppercase;
     }
 
     &__content{
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 60px;
+        &_active{
+            display: flex;
+        }
         
     }
     &-item{
